@@ -1,0 +1,25 @@
+   
+.gallery {
+        column-count: 3;
+        column-width: 33%; 
+}
+@media only screen and (max-width: 1195px) {
+    
+    .gallery {
+        column-count: 1;
+        column-width: 100%;
+        }
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gallery .pics {
+transition: all 250ms ease-out; 
+} 
+
+.gallery .animation {
+transform: scale(0.9); 
+}
